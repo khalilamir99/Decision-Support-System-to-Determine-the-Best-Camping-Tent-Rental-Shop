@@ -1,0 +1,63 @@
+/* Mengatur tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #1cc88a;
+  color: white;
+}
+
+/* Mengatur kop surat */
+.kop-surat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.kop-surat img {
+  width: 65px;
+  height: auto;
+}
+
+.kop-surat div {
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* Garis double */
+.double-line {
+  border: 0;
+  border-top: 3px double black;
+  margin: 20px 0;
+}
+
+/* Deskripsi */
+.deskripsi {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Judul laporan */
+h3 {
+  text-align: center;
+  margin-top: 30px;
+}
